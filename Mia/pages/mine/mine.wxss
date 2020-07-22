@@ -1,0 +1,143 @@
+/* pages/mine/mine.less */
+image {
+  width: 100%;
+  height: 100%;
+}
+.top {
+  width: 750rpx;
+  height: 370rpx;
+  border: 1rpx solid red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.top .cipt {
+  position: absolute;
+  top: 0;
+}
+.top .yuan {
+  width: 131rpx;
+  height: 128rpx;
+  position: absolute;
+  z-index: 100;
+  border: 1rpx solid #bab4c4;
+  border-radius: 50%;
+  margin: 66rpx 0 0 0;
+}
+.top .box {
+  width: 196rpx;
+  height: 111rpx;
+  border: 0rpx red solid;
+  position: absolute;
+  z-index: 100;
+  justify-content: center;
+  margin: 210rpx 0 0 0;
+}
+.top .box .name {
+  font-size: 27rpx;
+  color: #ffffff;
+}
+.top .box .id {
+  font-size: 20rpx;
+  color: #d9d9d9;
+  margin: 10rpx 0 0 10rpx ;
+}
+.top .box .bx {
+  margin: 10rpx 0 0 0;
+  font-size: 20rpx;
+  color: #d9d9d9;
+  width: 140rpx;
+}
+.top .box .bx h1 {
+  color: #ffda08;
+}
+.top .box .fensi {
+  width: 100rpx;
+  height: 20rpx;
+  font-size: 20rpx;
+  color: #d9d9d9;
+  margin: -25rpx 0 0 100rpx;
+}
+.top .box .fensi h1 {
+  color: #ffda08;
+}
+.myan {
+  width: 750rpx;
+  height: 65rpx;
+  display: flex;
+  border-bottom: 1rpx solid #d9d9d9;
+  text-align: center;
+  margin: 20rpx 0 0 0;
+  font-size: 24rpx;
+}
+.myan .myworks {
+  flex: 1;
+  border-left: 1rpx solid #d9d9d9;
+  width: 170rpx;
+  margin-top: 10rpx;
+}
+.myan .mycooperation {
+  flex: 1;
+  margin-top: 10rpx;
+}
+.myan .Draft {
+  flex: 1;
+  margin-top: 10rpx;
+}
+.myan .cp {
+  flex: 1;
+  margin-top: 10rpx;
+}
+.myan .suxian {
+  width: 1rpx;
+  height: 48rpx;
+  border: 0rpx #d9d9d9 solid;
+  background: #d9d9d9;
+}
+.box-center {
+  width: 750rpx;
+  height: 210rpx;
+  border-bottom: 1rpx solid #d9d9d9;
+}
+.box-center .right {
+  width: 11rpx;
+  height: 115rpx;
+  border: 0rpx solid #ffda08;
+  background: #ffda08;
+  float: left;
+  margin: 28rpx 0 0 0;
+}
+.box-center .message {
+  margin: 31rpx 0 0 37rpx;
+  position: absolute;
+}
+.box-center .pict-one .pic {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 100rpx 73rpx 0 60rpx;
+  float: left;
+}
+.box-center .pict-one .txt {
+  font-size: 24rpx;
+}
+.box-center .pict-one .txt h1 {
+  margin: 0 80rpx 0 52rpx;
+}
+.box-center .pict-one .txt .le {
+  margin-left: 40rpx;
+}
+.box-center .pict-one .txt-1 {
+  font-size: 24rpx;
+}
+.box-center .pict-one .txt-1 h1 {
+  margin: 0 46rpx 0 40rpx;
+}
+.box-center .pict-one .txt-2 {
+  font-size: 24rpx;
+}
+.box-center .pict-one .txt-2 h1 {
+  margin: 0 45rpx 0 48rpx;
+}
+.box-center .pict-one .txt-2 .le {
+  margin-left: 62rpx;
+}

@@ -1,0 +1,134 @@
+/* pages/index/index.less */
+.top {
+  width: 750rpx;
+  height: 164rpx;
+  border: 1rpx red solid;
+}
+.top .top-box {
+  font-size: 36rpx;
+  height: 88rpx;
+  display: flex;
+  background-color: black;
+  color: #7c7c7c;
+  border: 1rpx red solid;
+}
+.top .top-box .live {
+  margin: 20rpx 0 0 150rpx;
+  flex: 1;
+}
+.top .top-box .hot {
+  margin: 20rpx 0 0 0;
+  flex: 1;
+}
+.top .top-box .fodder {
+  margin: 20rpx 0 0 0;
+  flex: 1;
+}
+.top .top-box .search {
+  width: 41rpx;
+  height: 41rpx;
+  margin: 25rpx 80rpx 0 0;
+}
+.top .center-tabs {
+  height: 76rpx;
+  background-color: black;
+  border: 1rpx red solid;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.picture-one {
+  width: 678rpx;
+  height: 225rpx;
+  border: 1rpx solid red;
+  margin: 26rpx 0 0 36rpx;
+  background: #7c7c7c;
+}
+.latest-material {
+  width: 750rpx;
+  height: 67rpx;
+  border: 1rpx red solid;
+}
+.latest-material .box {
+  width: 16rpx;
+  height: 16rpx;
+  margin: 40rpx 10rpx 0 34rpx;
+}
+.latest-material .box .image {
+  float: left;
+}
+.latest-material .tx {
+  width: 200rpx;
+  height: 40rpx;
+  margin: -33rpx 0 14rpx 50rpx;
+}
+.latest-material .tx .works {
+  font-size: 24rpx;
+  margin: -15rpx 0 0 10rpx;
+}
+.works_isbig {
+  width: 682rpx;
+  height: 278rpx;
+  border: 0rpx red solid;
+  margin: 5rpx 0 0 34rpx;
+  float: left;
+}
+.works_isbig .works_picture {
+  width: 331rpx;
+  height: 162rpx;
+  border: 0rpx red solid;
+  background: #7c7c7c;
+  border-radius: 5% 5% 0 0 ;
+}
+.works_isbig .content {
+  width: 331rpx;
+  height: 117rpx;
+  border: 1rpx red solid;
+  border-radius: 0 0 5% 5%;
+}
+.works_isbig .content .txt {
+  font-size: 22rpx;
+  margin: 0 0 0 10rpx;
+}
+.works_isbig .content .txt-1 {
+  color: #aeaeae;
+  font-size: 20rpx;
+  position: absolute;
+  margin: 80rpx 0 0 -60rpx;
+}
+.works_isbig .content .fen {
+  width: 36rpx;
+  height: 36rpx;
+  border: 0rpx red solid;
+  margin: 36rpx 0 0 280rpx;
+}
+.works_isbig_one .works_picture {
+  width: 331rpx;
+  height: 162rpx;
+  border: 0rpx red solid;
+  background: #7c7c7c;
+  border-radius: 5% 5% 0 0 ;
+}
+.works_isbig_one .content {
+  width: 331rpx;
+  height: 117rpx;
+  border: 0rpx red solid;
+  border-radius: 0 0 5% 5%;
+}
+.works_isbig_one .content .txt {
+  font-size: 22rpx;
+  margin: 0 0 0 10rpx;
+}
+.works_isbig_one .content .txt-1 {
+  color: #aeaeae;
+  font-size: 20rpx;
+  position: absolute;
+  margin: 80rpx 0 0 -60rpx;
+}
+.works_isbig_one .content .fen {
+  width: 36rpx;
+  height: 36rpx;
+  border: 0rpx red solid;
+  margin: 36rpx 0 0 280rpx;
+}

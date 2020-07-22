@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/circle/circle",
+    "pages/microphone/microphone",
+    "pages/community/community",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "C麦",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#ffff00", 
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/image/navigationbar/homepage.png",
+        "selectedIconPath": "/image/navigationbar/homepage-one.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "C圈",
+        "iconPath": "/image/navigationbar/attention.png",
+        "selectedIconPath": "/image/navigationbar/attention-one.png"
+      },
+      {
+        "pagePath": "pages/microphone/microphone",
+        "text": "",
+        "iconPath": "/image/navigationbar/microphone.png",
+        "selectedIconPath": "/image/navigationbar/microphone.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "/image/navigationbar/community.png",
+        "selectedIconPath": "/image/navigationbar/community-one.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/image/navigationbar/mine.png",
+        "selectedIconPath": "/image/navigationbar/mine-one.png"
+      }
+
+      
+      
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

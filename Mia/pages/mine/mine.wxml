@@ -1,0 +1,72 @@
+<!--pages/mine/mine.wxml-->
+
+<!-- 头部 -->
+<view class="top">
+    <image class="cipt" src="/image/mine/background.png"/>
+    <view class="yuan"></view>
+    <view class="box">
+        <view class="name"><h1>红鲤鱼与绿鲤鱼</h1></view>
+        <view class="id">ID:<h1> 123456</h1></view>   
+        <view class="bx">关注<h1> 123</h1></view>
+        <view class="fensi">粉丝<h1> 123</h1></view>
+    </view>
+</view>
+<view class="myan">
+    <view class="myworks">我的作品</view>
+    <view class="suxian"></view>
+    <view class="mycooperation">我的合作</view>
+    <view class="suxian"></view>
+    <view class="Draft">草稿箱</view>
+    <view class="suxian"></view>
+    <view class="cp">CP</view>
+    <view class="suxian"></view>
+</view>
+<!-- 中部 -->
+<!-- 消息中心 -->
+<view class="box-center">
+    <view class="right"></view>
+    <view class="message">消息中心</view>
+    <view class="pict-one" >
+        <navigator class="pic" wx:for="{{['1','2','3','4']}}" wx:key="my">
+            <image src="/image/mine/my{{item}}.png" />
+        </navigator>
+        <view class="txt">
+            <h1>@我的</h1>
+            <h1>礼物</h1>
+            <h1>评论</h1>
+            <h1 class="le">求合作</h1>
+        </view>
+    </view>
+</view>
+<!-- 素材中心 -->
+<view class="box-center">
+    <view class="right"></view>
+    <view class="message">素材中心</view>
+    <view class="pict-one" >
+        <navigator class="pic" wx:for="{{['1','2','3','4']}}" wx:key="my">
+            <image src="/image/mine/material{{item}}.png" />
+        </navigator>
+        <view class="txt-1">
+            <h1>我的搜藏</h1>
+            <h1>已配素材</h1>
+            <h1>自制素材</h1>
+            <h1>念白素材</h1>
+        </view>
+    </view>
+</view>
+<!-- 个人中心 -->
+<view class="box-center">
+    <view class="right"></view>
+    <view class="message">个人中心</view>
+    <view class="pict-one" >
+        <navigator class="pic" wx:for="{{['1','2','3','4']}}" wx:key="my">
+            <image src="/image/mine/personal{{item}}.png" />
+        </navigator>
+        <view class="txt-2">
+            <h1>我的钱包</h1>
+            <h1>我的C币</h1>
+            <h1 class="le">声 鉴</h1>
+            <h1 class="le">系统消息</h1>
+        </view>
+    </view>
+</view>

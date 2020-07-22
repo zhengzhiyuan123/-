@@ -1,0 +1,46 @@
+<!--pages/index/index.wxml-->
+<!-- 头部 -->
+<view class="top">
+    <!-- 头部导航栏 -->
+    <view class="top-box">
+        <!-- 直播 -->
+        <view class='live'>直播</view>
+        <!-- 热门 -->
+        <view class="hot">热门</view>
+        <!-- 素材 -->
+        <view class="fodder">素材</view>
+        <image class="search" src="/image/material/搜索.png"></image>
+    </view>
+    <!-- 头部标签栏 -->
+    <view class="center-tabs">
+        
+    </view>
+</view>
+
+<!-- 中部 -->
+    <!--第一层 -->
+    <view class="picture-one">
+        
+    </view>
+    <!-- 第二层 -->
+    <view class="latest-material">
+        <view class="box">
+            <image class="image" src="/image/material/圆点.png" />
+        </view>
+        <view class="tx">
+            <text class="works" >最新作品</text>
+        </view>
+        
+    </view>
+    <!-- 第三层 -->
+    <view class="works_isbig">
+        <view class="works_picture">
+            <image src="" />
+        </view>
+        <view class="content">
+            <h1 class="txt">123456</h1>
+            <h2 class="txt-1">12 | 123</h2>
+            <view class="fen"><image src="/image/material/分享.png" /></view>
+        </view>
+    </view>
+   
