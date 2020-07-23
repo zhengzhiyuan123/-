@@ -3,7 +3,7 @@
 <!-- 头部 -->
 <view class="top">
     <image class="cipt" src="/image/mine/background.png"/>
-    <view class="yuan"></view>
+    <view class="yuan"><image src="/image/mine/头像.png" /></view>
     <view class="box">
         <view class="name"><h1>红鲤鱼与绿鲤鱼</h1></view>
         <view class="id">ID:<h1> 123456</h1></view>   
