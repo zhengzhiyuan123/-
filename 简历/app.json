@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/project/project",
+    "pages/index/index",
+    "pages/detailed/detailed",
+    "pages/contact/contact",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle":"black"
+  },  
+  "tabBar": {
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "yellow",
+    "color": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人简介",
+        "iconPath": "/image/01.png",
+        "selectedIconPath": "/image/01.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项  目",
+        "iconPath": "/image/02.png",
+        "selectedIconPath": "/image/03.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我",
+        "iconPath": "/image/04.png",
+        "selectedIconPath": "/image/04.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

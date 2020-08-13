@@ -1,0 +1,32 @@
+<!-- pages/detailed/detailed.wxml -->
+<view class="big">
+    <image class="image" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5rw6pQ.8*rAczYkXKrQw3IqpYu3ZQrADEXMjFbE2qlIbJ.74DhnWY*IRi3Fpam74oWHVz*3UqAXYXYRhLyDLnL4!/c&ek=1&kp=1&pt=0&bo=RAd*AkQHfwIDZ0I!&tl=1&vuin=2395970538&tm=1597147200&sce=60-2-2&rf=0-0" />
+    <view class="swiper-tab">
+        <view class="swiper-tab-item {{currentTab==0?'on':''}}" data-current="0" bindtap="swichNav">
+            项目介绍
+        </view>
+        <view class="swiper-tab-item {{currentTab==1?'on':''}}" data-current="1" bindtap="swichNav">
+            图片详情
+        </view>
+        <view class="swiper-tab-item {{currentTab==2?'on':''}}" data-current="2" bindtap="swichNav">
+            核心代码
+        </view>
+    </view>
+    <swiper current="{{currentTab}}" duration="200" bindchange="swiperChange" class="swiper-auto">
+        <swiper-item class="txt">
+            <view>这是用tp5.1框架构成的页面</view>
+            <view>轮播图的实现、ajax技术 (实现筛选功能)</view>
+            <view>简单的css、jQuery效果</view>
+            <view>大量的浮动方法和定位</view>
+            <view>盒模型的运用 (margin、padding、border、flex)</view>
+            <view>加入了百度地图与定位......</view>
+        </swiper-item>
+        <swiper-item>
+            <view>图片</view>
+        </swiper-item>
+        <swiper-item class="txt">
+            <view>代码</view>
+        </swiper-item>
+    </swiper>
+</view>
+

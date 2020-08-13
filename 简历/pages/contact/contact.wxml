@@ -1,0 +1,16 @@
+<!--pages/contact/contact.wxml-->
+<view class="box">
+    <image class="" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1597052815513&di=dae8e69c6b44ce59c5f6eb9f5a1f10da&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fn3%2Fkk%2FQJ8696415503.jpg" />
+    <view class="mine">
+        <image class="pict" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5s.9P81Wu0K*dFrRPIj47C53.5m5gGDvcKfOlJCZ3KMD4h4dSm1GALRE87hVYb1cLWWuk.z.x3ytD3kFp2zm7gM!/c&ek=1&kp=1&pt=0&bo=oAU4BAAAAAABF6k!&tl=3&vuin=2395970538&tm=1597046400&sce=60-2-2&rf=0-0"/>    
+    </view>
+    <h1 class="name">郑志远</h1>
+    <h2 class="position">前端工程师</h2>
+    <h3 class="motto">努力前行, 才能走向成功</h3>
+    <view wx:for="{{imglist}}">
+        <image class="wx" bindtap="previewImage" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5lIPENUjbn4iPvxtoVhhOaafOwtbpDO9rLT3KuYKJDzf1qcITvtUUNSCEDuYYZd4lXlypF8dSXnMkfmhimHQcP0!/c&ek=1&kp=1&pt=0&bo=QABAAEAAQAADFzI!&tl=1&vuin=2395970538&tm=1597046400&sce=60-2-2&rf=0-0"  />
+    </view>
+    <view>
+        <image class="qq" bindtap="previewImages" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5sjtWwY3eOvpTbPYCUM2a8fYE.ceJ.5aad4ROHF.ENkLJ9W*L*XjC5P*..FHzUt6PfeFkpS3SCljtol4*XVWVZM!/c&ek=1&kp=1&pt=0&bo=QABAAEAAQAADFzI!&tl=1&vuin=2395970538&tm=1597050000&sce=60-2-2&rf=0-0" />
+    </view>
+</view>

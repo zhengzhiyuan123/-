@@ -1,0 +1,41 @@
+<!-- pages/project/project.wxml -->
+<view class="quan">
+    <scroll-view class="top-box">
+        <scroll-view class=" top" hidden="{{scrolltoupper}}" bindtap='goTop'>
+            <image class="pic" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1597048806534&di=889c135f8fde8ff840e8944b69c799f2&imgtype=0&src=http%3A%2F%2Ftp-y.zdmimg.com%2F201701%2F18%2F587f31189fa598607.jpg_e600.jpg" />
+            <view class="txt" bindtap="goTop">回 到 顶 部</view>
+        </scroll-view>
+    </scroll-view>
+    <view class="box">
+        <!-- 第一个项目 -->
+        <navigator class="box-false" url="../detailed/detailed" open-type="navigate">
+            <image class="picture" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5iNSyuD6OWlad63s6xD4EFWsbD3QP2a7jOh.kikoEBI4bpC.b.wTns5sPXanVk85tvO4t7qLaWa9rK1Mzo*bCw0!/c&ek=1&kp=1&pt=0&bo=BAEEAQQBBAEDFzI!&tl=1&vuin=2395970538&tm=1597129200&sce=60-2-2&rf=0-0" />
+            <h1>仿链家找房网页</h1>
+            <span class="small-box">2</span>
+            <image class="pictue" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5rw6pQ.8*rAczYkXKrQw3IqpYu3ZQrADEXMjFbE2qlIbJ.74DhnWY*IRi3Fpam74oWHVz*3UqAXYXYRhLyDLnL4!/c&ek=1&kp=1&pt=0&bo=RAd*AkQHfwIDZ0I!&tl=1&vuin=2395970538&tm=1597147200&sce=60-2-2&rf=0-0" />
+            <h2>仿链家找房</h2>
+        </navigator>
+        <!-- 第二个项目 -->
+        <view class="box-seckend similar">
+            <image class="picture" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5iNSyuD6OWlad63s6xD4EFWsbD3QP2a7jOh.kikoEBI4bpC.b.wTns5sPXanVk85tvO4t7qLaWa9rK1Mzo*bCw0!/c&ek=1&kp=1&pt=0&bo=BAEEAQQBBAEDFzI!&tl=1&vuin=2395970538&tm=1597129200&sce=60-2-2&rf=0-0" />
+            <h1>仿链家找房网页</h1>
+            <span class="small-box">2</span>
+        </view>
+        <!-- 第三个项目 -->
+        <view class="box-three similar">
+            <image class="picture" src="http://a1.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5iNSyuD6OWlad63s6xD4EFWsbD3QP2a7jOh.kikoEBI4bpC.b.wTns5sPXanVk85tvO4t7qLaWa9rK1Mzo*bCw0!/c&ek=1&kp=1&pt=0&bo=BAEEAQQBBAEDFzI!&tl=1&vuin=2395970538&tm=1597129200&sce=60-2-2&rf=0-0" />
+            <h1>仿链家找房网页</h1>
+            <span class="small-box">2</span>
+        </view>
+    </view>
+</view>
+    
+
+
+
+
+  
+    
+
+
+

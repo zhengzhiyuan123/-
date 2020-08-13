@@ -1,0 +1,45 @@
+<!-- index.wxml -->
+<view class="top">
+    <image class="tp" src="http://m.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5lIPENUjbn4iPvxtoVhhOaZY3uJIH7rDmcMQpxgXp22oeBlCg6ABfsMdQwuK2KKY4VNcJtlIfyfNaZbX81KT6GU!/b&bo=YAlABmAJQAYBByA!&rf=viewer_4" />
+</view>
+<!-- 开头 -->
+<view class="start border">
+    <image class="tp border" src="http://m.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5rw6pQ.8*rAczYkXKrQw3IqhvaHj*gVArPjmv42EoLXL9lJBw3XkVqcqfYj5iGmzepQPilUZU96ksEI2a2xHlAU!/mnull&bo=UQY4BAAAAAADB0k!&rf=photolist&t=5" />
+    <view class="black border"></view>
+    <view class="box">你 好</view>
+    <view class="myname">我是郑志远，欢迎来到我的小程序简历。</view>
+    <view class="txt">了解更多请向下阅读</view>
+</view>
+<!-- 经验 -->
+<view class="experience border">
+    <image class="tp border" src="http://m.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5rw6pQ.8*rAczYkXKrQw3Ip0AYe10W1Bb08LWxGZzqrPFJZh1R*rR*2rKpXE9ATkkaa5WhjXoKrJzs3FCVb2GM0!/mnull&bo=VAY4BAAAAAABB04!&rf=photolist&t=5" />
+    <view class="black border"></view>
+    <view class="box">经验</view>
+    <view class="txt collect">我是一名在2020年毕业的大专生</view>
+    <view class="text-me collect">专业是软件技术</view>
+    <view class="txt-oe collect">自己做过一些项目，详情可以查看项目页面</view>
+    <view class="txt-te collect">微信简历也是独立完成的</view>
+    <view class="fle collect">在学习的路上遇到了还能多困难，但是同时也带给我许多收获</view>
+</view>
+<!-- 技能 -->
+<view class="skills border">
+    <image class="tp border" src="http://m.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5p62*jWuRy84n.In39ORn5Pe4ZBc8jL474nOxMjdwVTylhsNRSBVIVPP4WmqlYUYZnwAIennVQPaA*z9bPnp2uA!/mnull&bo=VAY4BAAAAAABB04!&rf=photolist&t=5" />
+    <view class="black border"></view>
+    <view class="box">工作技能</view>
+    <view class="box-tan">
+        <view class="one">了解html5 css3 javascript mysql</view>
+        <view class="one">了解jQuery bootstrap</view>
+        <view class="one">了解PHP框架</view>
+        <view class="one">了解vue框架的基本使用</view>
+        <view class="one">掌握了一定的photoshop</view>
+        <view class="one">对微信小程序有所了解</view>
+    </view>
+</view>
+<!-- 生活 -->
+<view class="life border">
+    <image class="tp border" src="http://m.qpic.cn/psc?/V53PNrkp0VCm7j3BfJRm3yKGct2W8zQZ/ruAMsa53pVQWN7FLK88i5rw6pQ.8*rAczYkXKrQw3IoC.fZsRUPPstBvVaRrTbsSeB78XOrcIfaWKC9AoNvRUjP6vgdmxBf8ledRwoZDWjk!/mnull&bo=UwY4BAAAAAABB0k!&rf=photolist&t=5" />
+    <view class="black border"></view>
+    <view class="box">
+        <h1>生活</h1>
+    </view>
+</view>
